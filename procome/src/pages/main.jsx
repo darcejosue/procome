@@ -1,18 +1,18 @@
 import React from "react";
-import Semanal from "../components/semanal";
+import Router from "../routes/router";
+import NuevoEmpleado from "./admin/pages/nuevoEmpleado";
+import HorariosTurnos from "./admin/pages/horariosTurnos";
 
 
-function Body(){
-return(
+function Body() {
+  return (
     <div>
-
-        <br />
-        <hr />
-        <div className="bg-success">
-            <Semanal/>
-        </div>
+      <br />
+      <hr />
+      <div >
+        <HorariosTurnos></HorariosTurnos>      </div>
     </div>
-)
+  );
 }
 
 export default Body;

@@ -8,7 +8,7 @@ return(
     <footer className="footer">
     <div className="content has-text-centered">
       <p>
-        Delicias La Tia. Derechos reservados
+      © 2023 Delicias La Tia. Derechos reservados.
       </p>
     </div>
   </footer>
